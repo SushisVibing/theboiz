@@ -13,6 +13,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.theboyssa.item.SockItem;
+import net.mcreator.theboyssa.item.CumzoneItem;
 import net.mcreator.theboyssa.item.CumsockItem;
 import net.mcreator.theboyssa.item.CumdropItem;
 
@@ -25,6 +27,8 @@ public class TheboyssaModItems {
 	public static final Item CUMSOCK = register(new CumsockItem());
 	public static final Item CUMBLOCK = register(TheboyssaModBlocks.CUMBLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item CUMDROP = register(new CumdropItem());
+	public static final Item SOCK = register(new SockItem());
+	public static final Item CUMZONE = register(new CumzoneItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

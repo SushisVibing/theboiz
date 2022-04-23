@@ -35,13 +35,45 @@
       "locked_code": false,
       "registry_name": "cumblockrecipe",
       "path": "~/the cumzone"
+    },
+    {
+      "name": "Sock",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sock",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Sockrecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sockrecipe",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumzone",
+      "type": "dimension",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumzone",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/the cumzone"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.theboyssa.cumzone": "Cumzone Portal Igniter",
       "block.theboyssa.cumblock": "Cumblock",
+      "item.theboyssa.sock": "Sock",
       "item.theboyssa.cumdrop": "Cumdrop",
       "item.theboyssa.cumsock": "Cumsock"
     }

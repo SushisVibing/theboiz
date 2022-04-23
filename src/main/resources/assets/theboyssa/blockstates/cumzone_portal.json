@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "theboyssa:block/cumzone_portal_ew"
+    },
+    "axis=x": {
+      "model": "theboyssa:block/cumzone_portal_ns"
+    }
+  }
+}
