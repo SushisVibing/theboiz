@@ -7,7 +7,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Ball",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "theboyssa",
