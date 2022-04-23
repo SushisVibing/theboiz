@@ -9,16 +9,17 @@
     "name": "~",
     "children": [
       {
-        "name": "Ball",
-        "children": []
-      },
-      {
         "name": "people",
         "children": []
       },
       {
         "name": "items",
-        "children": []
+        "children": [
+          {
+            "name": "Ball",
+            "children": []
+          }
+        ]
       }
     ]
   },
