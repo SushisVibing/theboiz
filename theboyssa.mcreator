@@ -1,20 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "Tits",
-      "type": "tab",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tits"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "itemGroup.tabtits": "Tits"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
