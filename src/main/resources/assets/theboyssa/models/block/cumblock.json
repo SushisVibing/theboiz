@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "theboyssa:blocks/cum",
+    "up": "theboyssa:blocks/cum",
+    "north": "theboyssa:blocks/cum",
+    "east": "theboyssa:blocks/cum",
+    "south": "theboyssa:blocks/cum",
+    "west": "theboyssa:blocks/cum",
+    "particle": "theboyssa:blocks/cum"
+  }
+}

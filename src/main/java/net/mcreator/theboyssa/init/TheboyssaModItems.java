@@ -8,7 +8,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.theboyssa.item.CumsockItem;
 
@@ -19,10 +22,15 @@ import java.util.ArrayList;
 public class TheboyssaModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
 	public static final Item CUMSOCK = register(new CumsockItem());
+	public static final Item CUMBLOCK = register(TheboyssaModBlocks.CUMBLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
 		return item;
+	}
+
+	private static Item register(Block block, CreativeModeTab tab) {
+		return register(new BlockItem(block, new Item.Properties().tab(tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@SubscribeEvent

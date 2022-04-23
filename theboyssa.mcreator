@@ -8,12 +8,22 @@
       "locked_code": false,
       "registry_name": "cumsock",
       "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumblock",
+      "path": "~/the cumzone"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.theboyssa.cumblock": "Cumblock",
       "item.theboyssa.cumsock": "Cumsock"
     }
   },
