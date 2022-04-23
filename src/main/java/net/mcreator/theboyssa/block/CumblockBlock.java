@@ -10,9 +10,11 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FallingBlock;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
@@ -27,8 +29,8 @@ import java.util.Collections;
 
 public class CumblockBlock extends FallingBlock {
 	public CumblockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.SLIME_BLOCK).strength(1f, 10f).noCollission().friction(0.3f).noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.SLIME_BLOCK).strength(1f, 10f).friction(0.8f).speedFactor(0.1f)
+				.jumpFactor(0.2f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		setRegistryName("cumblock");
 	}
 
@@ -45,7 +47,12 @@ public class CumblockBlock extends FallingBlock {
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 15;
+		return 10;
+	}
+
+	@Override
+	public boolean isLadder(BlockState state, LevelReader world, BlockPos pos, LivingEntity entity) {
+		return true;
 	}
 
 	@Override

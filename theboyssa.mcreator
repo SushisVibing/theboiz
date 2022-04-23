@@ -17,6 +17,24 @@
       "locked_code": false,
       "registry_name": "cumblock",
       "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumdrop",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumdrop",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumblockrecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumblockrecipe",
+      "path": "~/the cumzone"
     }
   ],
   "variable_elements": [],
@@ -24,6 +42,7 @@
   "language_map": {
     "en_us": {
       "block.theboyssa.cumblock": "Cumblock",
+      "item.theboyssa.cumdrop": "Cumdrop",
       "item.theboyssa.cumsock": "Cumsock"
     }
   },
