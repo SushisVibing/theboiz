@@ -11,6 +11,10 @@
       {
         "name": "Ball",
         "children": []
+      },
+      {
+        "name": "people",
+        "children": []
       }
     ]
   },
