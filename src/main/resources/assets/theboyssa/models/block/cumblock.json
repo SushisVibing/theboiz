@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "theboyssa:blocks/cumblocktext",
+    "particle": "theboyssa:blocks/cumblocktext"
+  }
+}

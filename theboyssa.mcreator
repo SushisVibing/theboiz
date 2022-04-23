@@ -1,13 +1,86 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Cumsock",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumsock",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Sock",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sock",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Sockrecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sockrecipe",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumzone",
+      "type": "dimension",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumzone",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumblockrecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumblockrecipe",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumblock",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumdrop",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumdrop",
+      "path": "~/the cumzone"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.theboyssa.cumzone": "Cumzone Portal Igniter"
+    }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
+      {
+        "name": "the cumzone",
+        "children": []
+      },
       {
         "name": "people",
         "children": []
