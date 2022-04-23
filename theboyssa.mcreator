@@ -15,6 +15,10 @@
       {
         "name": "people",
         "children": []
+      },
+      {
+        "name": "items",
+        "children": []
       }
     ]
   },
