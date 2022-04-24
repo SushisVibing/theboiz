@@ -10,33 +10,6 @@
       "path": "~/the cumzone"
     },
     {
-      "name": "Cumblock",
-      "type": "block",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cumblock",
-      "path": "~/the cumzone"
-    },
-    {
-      "name": "Cumdrop",
-      "type": "item",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cumdrop",
-      "path": "~/the cumzone"
-    },
-    {
-      "name": "Cumblockrecipe",
-      "type": "recipe",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cumblockrecipe",
-      "path": "~/the cumzone"
-    },
-    {
       "name": "Sock",
       "type": "item",
       "sortid": 6,
@@ -65,6 +38,42 @@
         "ep": true
       },
       "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumblockrecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumblockrecipe",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumblock",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumdrop",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumdrop",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Penis",
+      "type": "livingentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penis",
+      "path": "~/people"
     },
     {
       "name": "Cumportaligniter",
@@ -104,17 +113,16 @@
         "children": []
       },
       {
+        "name": "Ball",
+        "children": []
+      },
+      {
         "name": "people",
         "children": []
       },
       {
         "name": "items",
-        "children": [
-          {
-            "name": "Ball",
-            "children": []
-          }
-        ]
+        "children": []
       }
     ]
   },
