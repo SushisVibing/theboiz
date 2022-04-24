@@ -1,36 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "0"
   ],
   "key": {
     "0": {
-      "item": "theboyssa:cumdrop"
-    },
-    "1": {
-      "item": "theboyssa:cumdrop"
-    },
-    "2": {
-      "item": "theboyssa:cumdrop"
-    },
-    "3": {
-      "item": "theboyssa:cumdrop"
-    },
-    "4": {
-      "item": "theboyssa:cumsock"
-    },
-    "5": {
-      "item": "theboyssa:cumdrop"
-    },
-    "6": {
-      "item": "theboyssa:cumdrop"
-    },
-    "7": {
-      "item": "theboyssa:cumdrop"
-    },
-    "8": {
       "item": "theboyssa:cumdrop"
     }
   },
