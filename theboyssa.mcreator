@@ -65,17 +65,28 @@
         "ep": true
       },
       "path": "~/the cumzone"
+    },
+    {
+      "name": "Penis",
+      "type": "livingentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penis",
+      "path": "~/people"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "entity.theboyssa.penis": "Penis",
       "item.theboyssa.cumzone": "Cumzone Portal Igniter",
       "block.theboyssa.cumblock": "Cumblock",
       "item.theboyssa.sock": "Sock",
       "item.theboyssa.cumdrop": "Cumdrop",
-      "item.theboyssa.cumsock": "Cumsock"
+      "item.theboyssa.cumsock": "Cumsock",
+      "item.theboyssa.penis_spawn_egg": "Penis Spawn Egg"
     }
   },
   "foldersRoot": {
