@@ -52,7 +52,7 @@
       "name": "Cumblock",
       "type": "block",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cumblock",
       "path": "~/the cumzone"
@@ -88,7 +88,7 @@
       "name": "Cumpaticle",
       "type": "particle",
       "sortid": 11,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cumpaticle",
       "path": "~/the cumzone"
@@ -117,6 +117,67 @@
         ]
       },
       "path": "~/people"
+    },
+    {
+      "name": "FourskinFoodEaten",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fourskin_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CumdropItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumdrop_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Foreskintoleather",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foreskintoleather",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Fourskin",
+      "type": "food",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fourskin",
+      "path": "~/items"
+    },
+    {
+      "name": "Cumdroprecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumdroprecipe",
+      "path": "~/the cumzone"
     }
   ],
   "variable_elements": [],
