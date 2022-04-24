@@ -10,33 +10,6 @@
       "path": "~/the cumzone"
     },
     {
-      "name": "Cumblock",
-      "type": "block",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cumblock",
-      "path": "~/the cumzone"
-    },
-    {
-      "name": "Cumdrop",
-      "type": "item",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cumdrop",
-      "path": "~/the cumzone"
-    },
-    {
-      "name": "Cumblockrecipe",
-      "type": "recipe",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cumblockrecipe",
-      "path": "~/the cumzone"
-    },
-    {
       "name": "Sock",
       "type": "item",
       "sortid": 6,
@@ -67,6 +40,33 @@
       "path": "~/the cumzone"
     },
     {
+      "name": "Cumblockrecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumblockrecipe",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumblock",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumdrop",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumdrop",
+      "path": "~/the cumzone"
+    },
+    {
       "name": "Penis",
       "type": "livingentity",
       "sortid": 9,
@@ -74,24 +74,44 @@
       "locked_code": false,
       "registry_name": "penis",
       "path": "~/people"
+    },
+    {
+      "name": "Cumportaligniter",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumportaligniter",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumpaticle",
+      "type": "particle",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumpaticle",
+      "path": "~/the cumzone"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "entity.theboyssa.penis": "Penis",
       "item.theboyssa.cumzone": "Cumzone Portal Igniter",
       "block.theboyssa.cumblock": "Cumblock",
       "item.theboyssa.sock": "Sock",
       "item.theboyssa.cumdrop": "Cumdrop",
-      "item.theboyssa.cumsock": "Cumsock",
-      "item.theboyssa.penis_spawn_egg": "Penis Spawn Egg"
+      "item.theboyssa.cumsock": "Cumsock"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
+      {
+        "name": "the cumzone",
+        "children": []
+      },
       {
         "name": "Ball",
         "children": []
@@ -102,10 +122,6 @@
       },
       {
         "name": "items",
-        "children": []
-      },
-      {
-        "name": "the cumzone",
         "children": []
       }
     ]

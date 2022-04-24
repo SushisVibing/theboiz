@@ -14,7 +14,7 @@ import net.mcreator.theboyssa.block.CumzonePortalBlock;
 
 public class CumzoneItem extends Item {
 	public CumzoneItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).durability(64));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(64));
 		setRegistryName("cumzone");
 	}
 
