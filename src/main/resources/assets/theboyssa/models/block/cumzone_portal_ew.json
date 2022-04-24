@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "theboyssa:blocks/cum",
-    "portal": "theboyssa:blocks/cum"
+    "particle": "theboyssa:blocks/cumportaltext",
+    "portal": "theboyssa:blocks/cumportaltext"
   },
   "elements": [
     {

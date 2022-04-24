@@ -21,11 +21,14 @@
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "CumzonePlayerEntersDimension"
+    },
     "portalFrame": {
       "value": "CUSTOM:Cumblock"
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:Cumpaticle"
     },
     "portalLuminance": 0,
     "portalSound": {
@@ -33,10 +36,10 @@
     },
     "igniterName": "Cumzone Portal Igniter",
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "MISC"
     },
     "texture": "cumsocktexture",
-    "portalTexture": "cum",
+    "portalTexture": "cumportaltext",
     "enablePortal": true
   }
 }

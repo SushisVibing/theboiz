@@ -65,6 +65,36 @@
         "ep": true
       },
       "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumportaligniter",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumportaligniter",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "CumzonePlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumzone_player_enters_dimension",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumpaticle",
+      "type": "particle",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumpaticle",
+      "path": "~/the cumzone"
     }
   ],
   "variable_elements": [],

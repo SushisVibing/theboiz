@@ -9,7 +9,7 @@ import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.FallingBlock;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TooltipFlag;
@@ -27,7 +27,7 @@ import net.mcreator.theboyssa.init.TheboyssaModBlocks;
 import java.util.List;
 import java.util.Collections;
 
-public class CumblockBlock extends FallingBlock {
+public class CumblockBlock extends Block {
 	public CumblockBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.SLIME_BLOCK).strength(1f, 10f).friction(0.8f).speedFactor(0.1f)
 				.jumpFactor(0.2f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
