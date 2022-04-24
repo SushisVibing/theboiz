@@ -58,7 +58,7 @@
       "name": "Cumzone",
       "type": "dimension",
       "sortid": 8,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cumzone",
       "metadata": {
