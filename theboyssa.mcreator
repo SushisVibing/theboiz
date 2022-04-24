@@ -67,15 +67,6 @@
       "path": "~/the cumzone"
     },
     {
-      "name": "Cumportaligniter",
-      "type": "recipe",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cumportaligniter",
-      "path": "~/the cumzone"
-    },
-    {
       "name": "CumzonePlayerEntersDimension",
       "type": "procedure",
       "sortid": 10,
@@ -85,6 +76,15 @@
       "metadata": {
         "dependencies": []
       },
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumportaligniter",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumportaligniter",
       "path": "~/the cumzone"
     },
     {
@@ -112,7 +112,7 @@
     "name": "~",
     "children": [
       {
-        "name": "Ball",
+        "name": "the cumzone",
         "children": []
       },
       {
@@ -121,11 +121,12 @@
       },
       {
         "name": "items",
-        "children": []
-      },
-      {
-        "name": "the cumzone",
-        "children": []
+        "children": [
+          {
+            "name": "Ball",
+            "children": []
+          }
+        ]
       }
     ]
   },
