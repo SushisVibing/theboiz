@@ -58,23 +58,11 @@
       "name": "Cumzone",
       "type": "dimension",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cumzone",
       "metadata": {
         "ep": true
-      },
-      "path": "~/the cumzone"
-    },
-    {
-      "name": "CumzonePlayerEntersDimension",
-      "type": "procedure",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cumzone_player_enters_dimension",
-      "metadata": {
-        "dependencies": []
       },
       "path": "~/the cumzone"
     },
