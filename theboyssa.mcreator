@@ -52,7 +52,7 @@
       "name": "Cumblock",
       "type": "block",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cumblock",
       "path": "~/the cumzone"
@@ -70,7 +70,7 @@
       "name": "Penis",
       "type": "livingentity",
       "sortid": 9,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "penis",
       "path": "~/people"
@@ -88,7 +88,7 @@
       "name": "Cumpaticle",
       "type": "particle",
       "sortid": 11,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cumpaticle",
       "path": "~/the cumzone"
@@ -98,11 +98,13 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.theboyssa.cumzone": "super cummy sock",
+      "entity.theboyssa.penis": "Penis",
+      "item.theboyssa.cumzone": "Cumzone Portal Igniter",
       "block.theboyssa.cumblock": "Cumblock",
       "item.theboyssa.sock": "Sock",
       "item.theboyssa.cumdrop": "Cumdrop",
-      "item.theboyssa.cumsock": "Cumsock"
+      "item.theboyssa.cumsock": "Cumsock",
+      "item.theboyssa.penis_spawn_egg": "Penis Spawn Egg"
     }
   },
   "foldersRoot": {
