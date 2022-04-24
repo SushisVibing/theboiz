@@ -9,7 +9,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
@@ -30,9 +29,6 @@ public class TheboyssaModItems {
 	public static final Item CUMDROP = register(new CumdropItem());
 	public static final Item SOCK = register(new SockItem());
 	public static final Item CUMZONE = register(new CumzoneItem());
-	public static final Item PENIS = register(
-			new SpawnEggItem(TheboyssaModEntities.PENIS, -26215, -13108, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
-					.setRegistryName("penis_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
