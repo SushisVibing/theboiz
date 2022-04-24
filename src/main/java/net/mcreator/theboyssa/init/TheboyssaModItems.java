@@ -15,6 +15,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.theboyssa.item.SockItem;
+import net.mcreator.theboyssa.item.FourskinItem;
 import net.mcreator.theboyssa.item.CumzoneItem;
 import net.mcreator.theboyssa.item.CumsockItem;
 import net.mcreator.theboyssa.item.CumdropItem;
@@ -33,6 +34,7 @@ public class TheboyssaModItems {
 	public static final Item PENIS = register(
 			new SpawnEggItem(TheboyssaModEntities.PENIS, -26215, -13108, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("penis_spawn_egg"));
+	public static final Item FOURSKIN = register(new FourskinItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

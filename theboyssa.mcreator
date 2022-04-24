@@ -92,6 +92,32 @@
       "locked_code": false,
       "registry_name": "cumpaticle",
       "path": "~/the cumzone"
+    },
+    {
+      "name": "FourskinFoodEaten",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fourskin_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Fourskin",
+      "type": "food",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fourskin",
+      "path": "~/items"
     }
   ],
   "variable_elements": [],
@@ -100,6 +126,7 @@
     "en_us": {
       "entity.theboyssa.penis": "Penis",
       "item.theboyssa.cumzone": "super cummy sock",
+      "item.theboyssa.fourskin": "Foreskin",
       "block.theboyssa.cumblock": "Cumblock",
       "item.theboyssa.sock": "Sock",
       "item.theboyssa.cumdrop": "Cumdrop",
