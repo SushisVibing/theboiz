@@ -92,6 +92,31 @@
       "locked_code": false,
       "registry_name": "cumpaticle",
       "path": "~/the cumzone"
+    },
+    {
+      "name": "Milking",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milking",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/people"
     }
   ],
   "variable_elements": [],
