@@ -118,6 +118,41 @@
       "locked_code": false,
       "registry_name": "fourskin",
       "path": "~/items"
+    },
+    {
+      "name": "Cumdroprecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumdroprecipe",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "CumdropItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumdrop_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Foreskintoleather",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foreskintoleather",
+      "path": "~/the cumzone"
     }
   ],
   "variable_elements": [],
