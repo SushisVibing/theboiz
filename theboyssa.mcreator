@@ -52,7 +52,7 @@
       "name": "Cumblock",
       "type": "block",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cumblock",
       "path": "~/the cumzone"
@@ -88,7 +88,7 @@
       "name": "Cumpaticle",
       "type": "particle",
       "sortid": 11,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cumpaticle",
       "path": "~/the cumzone"
@@ -186,6 +186,7 @@
     "en_us": {
       "entity.theboyssa.penis": "Penis",
       "item.theboyssa.cumzone": "super cummy sock",
+      "item.theboyssa.fourskin": "Foreskin",
       "block.theboyssa.cumblock": "Cumblock",
       "item.theboyssa.sock": "Sock",
       "item.theboyssa.cumdrop": "Cumdrop",
