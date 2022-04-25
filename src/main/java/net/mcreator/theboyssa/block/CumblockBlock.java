@@ -29,8 +29,8 @@ import java.util.Collections;
 
 public class CumblockBlock extends Block {
 	public CumblockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.SLIME_BLOCK).strength(1f, 10f).friction(0.8f).speedFactor(0.1f)
-				.jumpFactor(0.2f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.SLIME_BLOCK).strength(1f, 10f).friction(0.8f).speedFactor(0.9f)
+				.jumpFactor(0.9f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		setRegistryName("cumblock");
 	}
 

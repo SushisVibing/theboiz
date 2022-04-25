@@ -30,10 +30,10 @@ public class CumzoneDimension {
 		public static void registerFillerBlocks(FMLCommonSetupEvent event) {
 			Set<Block> replaceableBlocks = new HashSet<>();
 			replaceableBlocks.add(TheboyssaModBlocks.CUMBLOCK);
-			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("swamp")).getGenerationSettings().getSurfaceBuilder().get()
-					.config().getTopMaterial().getBlock());
-			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("swamp")).getGenerationSettings().getSurfaceBuilder().get()
-					.config().getUnderMaterial().getBlock());
+			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("theboyssa:cumbiome")).getGenerationSettings()
+					.getSurfaceBuilder().get().config().getTopMaterial().getBlock());
+			replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("theboyssa:cumbiome")).getGenerationSettings()
+					.getSurfaceBuilder().get().config().getUnderMaterial().getBlock());
 			event.enqueueWork(() -> {
 				WorldCarver.CAVE.replaceableBlocks = new ImmutableSet.Builder<Block>().addAll(WorldCarver.CAVE.replaceableBlocks)
 						.addAll(replaceableBlocks).build();

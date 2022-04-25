@@ -4,7 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "swamp"
+        "value": "CUSTOM:Cumbiome"
       }
     ],
     "worldGenType": "Nether like gen",
@@ -12,7 +12,7 @@
       "value": "CUSTOM:Cumblock"
     },
     "fluidBlock": {
-      "value": "Blocks.FLOWING_WATER"
+      "value": "CUSTOM:Cumfluid"
     },
     "canRespawnHere": false,
     "hasFog": false,

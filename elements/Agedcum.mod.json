@@ -2,24 +2,24 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "cumblocktext",
-    "textureTop": "cum",
-    "textureLeft": "cum",
-    "textureFront": "cum",
-    "textureRight": "cum",
-    "textureBack": "cum",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "agedcumtext",
+    "textureTop": "agedcumtext",
+    "textureLeft": "agedcumtext",
+    "textureFront": "agedcumtext",
+    "textureRight": "agedcumtext",
+    "textureBack": "agedcumtext",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
-    "isItemTinted": true,
-    "hasTransparency": true,
-    "connectedSides": true,
-    "transparencyType": "TRANSLUCENT",
+    "isItemTinted": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -32,27 +32,25 @@
         "subtract": false
       }
     ],
-    "name": "Cumblock",
-    "specialInfo": [
-      "cummy yummy"
-    ],
-    "hardness": 1.0,
+    "name": "Agedcum",
+    "specialInfo": [],
+    "hardness": 3.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canRedstoneConnect": false,
-    "lightOpacity": 10,
+    "lightOpacity": 15,
     "material": {
       "value": "ROCK"
     },
@@ -71,15 +69,15 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "isLadder": true,
-    "slipperiness": 0.8,
-    "speedFactor": 0.9,
-    "jumpFactor": 0.9,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SLIME"
+      "value": "BONE"
     },
     "breakSound": {
       "value": ""
@@ -101,7 +99,7 @@
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:Cumpaticle"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -130,9 +128,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 1,
+    "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": 64,
-    "maxGenerateHeight": 70
+    "minGenerateHeight": 1,
+    "maxGenerateHeight": 125
   }
 }

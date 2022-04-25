@@ -13,7 +13,9 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.theboyssa.block.CumzonePortalBlock;
+import net.mcreator.theboyssa.block.CumfluidBlock;
 import net.mcreator.theboyssa.block.CumblockBlock;
+import net.mcreator.theboyssa.block.AgedcumBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -23,6 +25,8 @@ public class TheboyssaModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block CUMBLOCK = register(new CumblockBlock());
 	public static final Block CUMZONE_PORTAL = register(new CumzonePortalBlock());
+	public static final Block CUMFLUID = register(new CumfluidBlock());
+	public static final Block AGEDCUM = register(new AgedcumBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
