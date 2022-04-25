@@ -88,7 +88,7 @@
       "name": "Cumpaticle",
       "type": "particle",
       "sortid": 11,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cumpaticle",
       "path": "~/the cumzone"
@@ -179,6 +179,36 @@
       "locked_code": false,
       "registry_name": "whitepenis",
       "path": "~/people"
+    },
+    {
+      "name": "Agedcum",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agedcum",
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumfluid",
+      "type": "fluid",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumfluid",
+      "metadata": {
+        "gb": true
+      },
+      "path": "~/the cumzone"
+    },
+    {
+      "name": "Cumbiome",
+      "type": "biome",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cumbiome",
+      "path": "~/the cumzone"
     }
   ],
   "variable_elements": [],
