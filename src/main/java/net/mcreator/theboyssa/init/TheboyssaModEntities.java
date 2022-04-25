@@ -14,6 +14,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.theboyssa.entity.WhitepenisEntity;
 import net.mcreator.theboyssa.entity.PenisEntity;
 
 import java.util.List;
@@ -25,6 +26,9 @@ public class TheboyssaModEntities {
 	public static final EntityType<PenisEntity> PENIS = register("penis",
 			EntityType.Builder.<PenisEntity>of(PenisEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(PenisEntity::new).sized(0.6f, 1.8f));
+	public static final EntityType<WhitepenisEntity> WHITEPENIS = register("whitepenis",
+			EntityType.Builder.<WhitepenisEntity>of(WhitepenisEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WhitepenisEntity::new).sized(0.6f, 1.8f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
@@ -41,11 +45,13 @@ public class TheboyssaModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			PenisEntity.init();
+			WhitepenisEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(PENIS, PenisEntity.createAttributes().build());
+		event.put(WHITEPENIS, WhitepenisEntity.createAttributes().build());
 	}
 }

@@ -35,6 +35,9 @@ public class TheboyssaModItems {
 			new SpawnEggItem(TheboyssaModEntities.PENIS, -26215, -13108, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("penis_spawn_egg"));
 	public static final Item FOURSKIN = register(new FourskinItem());
+	public static final Item WHITEPENIS = register(
+			new SpawnEggItem(TheboyssaModEntities.WHITEPENIS, -26215, -13108, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("whitepenis_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

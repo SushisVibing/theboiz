@@ -40,17 +40,17 @@ import net.mcreator.theboyssa.procedures.MilkingProcedure;
 import net.mcreator.theboyssa.init.TheboyssaModEntities;
 
 @Mod.EventBusSubscriber
-public class PenisEntity extends PathfinderMob {
+public class WhitepenisEntity extends PathfinderMob {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(TheboyssaModEntities.PENIS, 20, 4, 4));
+		event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(TheboyssaModEntities.WHITEPENIS, 20, 4, 4));
 	}
 
-	public PenisEntity(FMLPlayMessages.SpawnEntity packet, Level world) {
-		this(TheboyssaModEntities.PENIS, world);
+	public WhitepenisEntity(FMLPlayMessages.SpawnEntity packet, Level world) {
+		this(TheboyssaModEntities.WHITEPENIS, world);
 	}
 
-	public PenisEntity(EntityType<PenisEntity> type, Level world) {
+	public WhitepenisEntity(EntityType<WhitepenisEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
@@ -102,10 +102,10 @@ public class PenisEntity extends PathfinderMob {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(TheboyssaModEntities.PENIS, SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		SpawnPlacements.register(TheboyssaModEntities.WHITEPENIS, SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos,
 						random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
-		DungeonHooks.addDungeonMob(TheboyssaModEntities.PENIS, 180);
+		DungeonHooks.addDungeonMob(TheboyssaModEntities.WHITEPENIS, 180);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
