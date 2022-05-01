@@ -1,12 +1,21 @@
 {
-  "entity.theboyssa.penis": "Penis",
   "item.theboyssa.cumzone": "super cummy sock",
   "item.theboyssa.fourskin": "Foreskin",
-  "entity.theboyssa.whitepenis": "Penis",
   "block.theboyssa.cumblock": "Cumblock",
-  "item.theboyssa.whitepenis_spawn_egg": "Penis Spawn Egg",
+  "item.theboyssa.cumfluid_bucket": "Cumfluid Bucket",
   "item.theboyssa.sock": "Sock",
+  "biome.theboyssa.cumbiome": "Cumbiome",
+  "block.theboyssa.cumfluid": "Cumfluid",
+  "item.minecraft.tipped_arrow.effect.cumgrenade": "Arrow of Cum",
+  "entity.theboyssa.penis": "Penis",
+  "entity.theboyssa.whitepenis": "Penis",
+  "item.minecraft.lingering_potion.effect.cumgrenade": "Lingering Potion of Cumgrenade",
+  "item.minecraft.splash_potion.effect.cumgrenade": "Cum grenade",
+  "item.theboyssa.whitepenis_spawn_egg": "Penis Spawn Egg",
+  "fluid.theboyssa.cumfluid": "Cumfluid",
+  "item.minecraft.potion.effect.cumgrenade": "Cum grenade",
   "item.theboyssa.cumdrop": "Cumdrop",
   "item.theboyssa.cumsock": "Cumsock",
-  "item.theboyssa.penis_spawn_egg": "Penis Spawn Egg"
+  "item.theboyssa.penis_spawn_egg": "Penis Spawn Egg",
+  "block.theboyssa.agedcum": "Agedcum"
 }
