@@ -13,11 +13,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -26215,
+      "value": -10079488,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -13108,
+      "value": -6737152,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -118,7 +118,26 @@
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "bamboo_jungle_hills"
+      },
+      {
+        "value": "bamboo_jungle_hills"
+      },
+      {
+        "value": "jungle_edge"
+      },
+      {
+        "value": "jungle_hills"
+      }
+    ],
     "spawnInDungeons": true
   }
 }
