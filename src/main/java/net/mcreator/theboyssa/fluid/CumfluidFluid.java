@@ -1,8 +1,23 @@
 
 package net.mcreator.theboyssa.fluid;
 
-public abstract class CumfluidFluid extends ForgeFlowingFluid {
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fluids.ForgeFlowingFluid;
+import net.minecraftforge.fluids.FluidAttributes;
 
+import net.minecraft.world.level.material.FluidState;
+import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.particles.ParticleOptions;
+
+import net.mcreator.theboyssa.init.TheboyssaModParticles;
+import net.mcreator.theboyssa.init.TheboyssaModItems;
+import net.mcreator.theboyssa.init.TheboyssaModFluids;
+import net.mcreator.theboyssa.init.TheboyssaModBlocks;
+
+public abstract class CumfluidFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> TheboyssaModFluids.CUMFLUID,
 			() -> TheboyssaModFluids.FLOWING_CUMFLUID,
 			FluidAttributes.builder(new ResourceLocation("theboyssa:blocks/cumfluid"), new ResourceLocation("theboyssa:blocks/cumfluid"))
@@ -58,5 +73,4 @@ public abstract class CumfluidFluid extends ForgeFlowingFluid {
 			return false;
 		}
 	}
-
 }

@@ -1,6 +1,13 @@
 package net.mcreator.theboyssa.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.items.ItemHandlerHelper;
+
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+
+import net.mcreator.theboyssa.init.TheboyssaModItems;
 
 public class MilkingProcedure {
 	public static void execute(Entity sourceentity) {

@@ -33,7 +33,7 @@ public class TheboyssaModItems {
 	public static final Item SOCK = register(new SockItem());
 	public static final Item CUMZONE = register(new CumzoneItem());
 	public static final Item PENIS = register(
-			new SpawnEggItem(TheboyssaModEntities.PENIS, -26215, -13108, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+			new SpawnEggItem(TheboyssaModEntities.PENIS, -10079488, -6737152, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("penis_spawn_egg"));
 	public static final Item FOURSKIN = register(new FourskinItem());
 	public static final Item WHITEPENIS = register(
