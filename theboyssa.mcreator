@@ -88,7 +88,7 @@
       "name": "Cumpaticle",
       "type": "particle",
       "sortid": 11,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cumpaticle",
       "path": "~/the cumzone"
@@ -224,8 +224,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.theboyssa.cumzone": "super cummy sock",
       "item.theboyssa.fourskin": "Foreskin",
+      "item.theboyssa.cumzone": "super cummy sock",
       "block.theboyssa.cumblock": "Cumblock",
       "item.theboyssa.cumfluid_bucket": "Cumfluid Bucket",
       "item.theboyssa.sock": "Sock",
